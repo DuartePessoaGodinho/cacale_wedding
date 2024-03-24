@@ -49,6 +49,7 @@ const ContactForm = () => {
           }}
           ref={formRef}
           onSubmit={handleSubmit}
+          netlify
         >
           <h3>Vai estar presente ?</h3>
           <Form.Group className="mb-3" controlId="formName">
