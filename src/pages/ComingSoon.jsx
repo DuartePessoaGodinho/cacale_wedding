@@ -40,7 +40,15 @@ export default function ComingSoon() {
           Uma equipa de macacos altamente treinada está a trabalhar neste
           website. Em breve estará disponivel!
         </p>
+        <p>Entretanto ....</p>
         <div class="countdown" id="countdown"></div>
+        <p>
+          <i class="arrow up"></i>
+          <i class="arrow up"></i>
+          <i class="arrow up"></i>
+        </p>
+
+        <p>Têm estes dias para se prepararem para o grande dia!</p>
       </div>
       <div class="footer">© 2024 Catarina & Alexandre</div>
     </>
