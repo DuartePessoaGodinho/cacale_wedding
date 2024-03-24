@@ -35,14 +35,14 @@ export default function ComingSoon() {
   return (
     <>
       <div class="container">
-        <h1>Coming Soon!</h1>
+        <h1>Estaremos aqui em breve!</h1>
         <p>
-          Our website is under construction. We'll be here soon with our new
-          awesome site.
+          Uma equipa de macacos altamente treinada está a trabalhar neste
+          website. Em breve estará disponivel!
         </p>
         <div class="countdown" id="countdown"></div>
       </div>
-      <div class="footer">© 2024 YourCompany. All rights reserved.</div>
+      <div class="footer">© 2024 Catarina & Alexandre</div>
     </>
   );
 }
