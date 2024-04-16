@@ -39,12 +39,11 @@ body {
     background-color: #a2a98f;
   }
 }
-
+/*
 .header {
   display: flex;
   justify-content: center;
   text-align: center;
-  // margin-right: -300px; // Parte esta merda toda
   font-family: "Vogue", sans-serif;
 
   img {
@@ -57,12 +56,13 @@ body {
     align-items: center;
 
     .title {
-      font-family: "Arsenal", sans-serif;
+      font-family: "Arsen", sans-serif;
       font-weight: lighter;
-      font-size: 100px;
+      font-size: 50px;
     }
 
     .welcoming {
+      font-family: Vogue;
       font-weight: 200;
       font-size: 28px;
       line-height: 33px;
@@ -75,6 +75,57 @@ body {
         font-weight: bold;
       }
     }
+  }
+}*/
+
+.header {
+  display: flex;
+  position: relative; // Needed for absolute positioning of the image
+  justify-content: center; // This centers the text block horizontally
+  align-items: center; // Aligns items vertically
+  font-family: "Vogue", sans-serif;
+  height: 100vh; // Optional: Adjust based on your design
+  width: 100%; // Ensures the header spans the full width
+
+  .header-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; // Ensures text is above the image if overlapping occurs
+  }
+
+  img {
+    position: absolute;
+    right: 0; // Positions the image at the right edge of the container
+    height: 600px;
+    width: auto; // Adjust width automatically based on height
+  }
+}
+
+.title,
+.welcoming,
+.date {
+  text-align: center; // Ensures text is centered within their blocks
+}
+
+.title {
+  font-family: "Arsen", sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.welcoming {
+  font-family: Vogue;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.date {
+  padding-top: 25px;
+  font-size: 25px;
+  .day {
+    font-weight: bold;
   }
 }
 

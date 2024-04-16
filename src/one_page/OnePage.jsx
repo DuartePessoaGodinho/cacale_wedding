@@ -1,5 +1,6 @@
 import "./OnePage.scss";
 import "./OnePageMobile.scss";
+import "./Fonts.scss";
 import big_flower from "../assets/one_page/flor_grande.png";
 import small_flower from "../assets/one_page/flor_piqui.png";
 
@@ -35,7 +36,9 @@ export default function OnePage() {
           <img src={small_flower} alt="" />
         </div>
 
-        <p>Temos vindo a escrever a nossa história desde 2014.</p>
+        <p className="assistant-bold">
+          Temos vindo a escrever a nossa história desde 2014.
+        </p>
         <p>
           Queremos continuar esta viagem, e por isso, após 10 anos de namoro e 2
           anos de noivado, chegou o momento de ‘dar o nó’!

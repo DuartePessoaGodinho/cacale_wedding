@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Arsen;
+  src: url(../assets/one_page/fonts/arsen/Arsen_Regular.otf) format("opentype");
+}
+
+// ASSISTANT
+@font-face {
+  font-family: "Assistant";
+  src: url(../assets/one_page/fonts/assistant/Assistant-Regular.ttf);
+}
+@font-face {
+  font-family: AssistantBold;
+  font-weight: bold;
+  src: url(../assets/one_page/fonts/assistant/Assistant-Bold.ttf);
+}
+@font-face {
+  font-family: Assistant;
+  font-weight: bolder;
+  src: url(../assets/one_page/fonts/assistant/Assistant-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Assistant;
+  font-weight: bold;
+  src: url(../assets/one_page/fonts/assistant/Assistant-Bold.ttf);
+}
+
+.assistant-bold {
+  font-family: AssistantBold;
+  font-weight: bold;
+  font-size: 26px;
+}
