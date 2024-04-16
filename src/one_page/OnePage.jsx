@@ -1,4 +1,5 @@
 import "./OnePage.scss";
+import "./OnePageMobile.scss";
 import big_flower from "../assets/one_page/flor_grande.png";
 import small_flower from "../assets/one_page/flor_piqui.png";
 
