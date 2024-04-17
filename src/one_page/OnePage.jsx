@@ -24,7 +24,7 @@ export default function OnePage() {
         <div className="header-texts">
           <h1 className="title">Catarina & Alexandre</h1>
           <div className="welcoming">
-            Vamos celebrar o inicio da nossa família!
+            Vamos celebrar o início da nossa família!
           </div>
           <div className="date">
             <div className="day">07.09.2024</div>
