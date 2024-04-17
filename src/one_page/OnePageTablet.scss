@@ -1,4 +1,8 @@
 @media (min-width: 601px) and (max-width: 1200px) {
+  .btn-presence {
+    font-size: 16px !important;
+  }
+
   .header {
     flex-direction: column-reverse;
 
@@ -34,6 +38,14 @@
 
     .mosaic {
       width: 100%;
+    }
+    .final-rsvp {
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      h3 {
+        font-size: 16px !important;
+      }
     }
   }
   .mini-header p {

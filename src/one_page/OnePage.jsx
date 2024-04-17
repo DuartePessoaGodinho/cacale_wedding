@@ -76,10 +76,8 @@ export default function OnePage() {
           <br />
           <p className="assistant-font">
             Existem lugares de estacionamento na rua do casamento e nas
-            proximidades (ver no mapa)
-          </p>
-          <p className="assistant-font">
-            Para quem mora perto, recomendamos um clássico Uber/Bolt.
+            proximidades (ver no mapa). Para quem mora perto, recomendamos um
+            clássico Uber/Bolt.
           </p>
 
           <div className="map-content">
@@ -105,7 +103,7 @@ export default function OnePage() {
               openExternalSite("http://www.hitchd.com/catarinalexandre2024")
             }
           >
-            Catarina & Alexandre
+            Ver lista
           </button>
         </div>
 
