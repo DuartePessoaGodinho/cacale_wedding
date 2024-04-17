@@ -1,31 +1,68 @@
 @font-face {
-  font-family: Arsen;
+  font-family: "Arsen";
   src: url(../assets/one_page/fonts/arsen/Arsen_Regular.otf) format("opentype");
 }
 
 // ASSISTANT
 @font-face {
   font-family: "Assistant";
-  src: url(../assets/one_page/fonts/assistant/Assistant-Regular.ttf);
+  src: url("../assets/one_page/fonts/assistant/Assistant-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: AssistantBold;
-  font-weight: bold;
-  src: url(../assets/one_page/fonts/assistant/Assistant-Bold.ttf);
+  font-family: "Assistant";
+  src: url("../assets/one_page/fonts/assistant/Assistant-Bold.ttf");
+  font-weight: bold; // Not bolder
+  font-style: normal;
 }
 @font-face {
-  font-family: Assistant;
-  font-weight: bolder;
-  src: url(../assets/one_page/fonts/assistant/Assistant-ExtraBold.ttf);
+  font-family: "Assistant";
+  src: url("../assets/one_page/fonts/assistant/Assistant-ExtraBold.ttf");
+  font-weight: 800; // Typically ExtraBold is 800
+  font-style: normal;
 }
 @font-face {
-  font-family: Assistant;
-  font-weight: bold;
-  src: url(../assets/one_page/fonts/assistant/Assistant-Bold.ttf);
+  font-family: "Assistant";
+  src: url("../assets/one_page/fonts/assistant/Assistant-Light.ttf");
+  font-weight: 300; // Light is usually around 300
+  font-style: normal;
 }
 
-.assistant-bold {
-  font-family: AssistantBold;
-  font-weight: bold;
-  font-size: 26px;
+// VOGUE
+@font-face {
+  font-family: "Vogue";
+  src: url(../assets/one_page/fonts/vogue/Vogue.otf) format("opentype");
+}
+@font-face {
+  font-family: "Vogue";
+  font-weight: 700;
+  src: url(../assets/one_page/fonts/vogue/Vogue_Bold.otf) format("opentype");
+}
+
+// PAGE LETTERING
+.arsen-font {
+  font-family: "Arsen";
+  font-size: 30px;
+}
+.assistant-font {
+  font-family: "Assistant";
+  font-weight: 300;
+  font-size: 22px;
+}
+.assistant-font-bold {
+  font-family: "Assistant";
+  font-weight: normal;
+  font-size: 24px;
+}
+
+// VOGUE
+.vogue-font {
+  font-family: "Vogue";
+  font-size: 30px;
+}
+
+.date .day {
+  font-weight: 700;
+  font-size: 34px;
 }

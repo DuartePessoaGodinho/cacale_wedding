@@ -11,6 +11,11 @@ import { useState } from "react";
 
 export default function OnePage() {
   const [isOpen, setOpen] = useState(false);
+
+  function openExternalSite(url) {
+    window.open(url, "_blank");
+  }
+
   return (
     <div>
       <div className="header">
@@ -31,61 +36,93 @@ export default function OnePage() {
       </div>
 
       <div className="content">
-        <div>
-          <h2>SOBRE NÓS</h2>
+        <div className="mini-header arsen-font">
+          <p>SOBRE NÓS</p>
           <img src={small_flower} alt="" />
         </div>
 
-        <p className="assistant-bold">
-          Temos vindo a escrever a nossa história desde 2014.
-        </p>
-        <p>
-          Queremos continuar esta viagem, e por isso, após 10 anos de namoro e 2
-          anos de noivado, chegou o momento de ‘dar o nó’!
-        </p>
+        <div className="mini-body">
+          <p className="assistant-font-bold">
+            Temos vindo a escrever a nossa história desde 2014.
+          </p>
+          <p className="assistant-font">
+            Queremos continuar esta viagem, e por isso, após 10 anos de namoro e
+            2 anos de noivado, chegou o momento de ‘dar o nó’!
+          </p>
+        </div>
 
         <img className="mosaic" src={ph_tortas} alt="" />
 
-        <div className="about-day">
-          <h2>SOBRE O DIA</h2>
+        <div
+          className="mini-header arsen-font"
+          style={{
+            flexDirection: "row-reverse",
+          }}
+        >
+          <p>SOBRE O DIA</p>
           <img src={small_flower} alt="" />
         </div>
 
-        <p>Esperamos pela vossa chegada pelas 17 horas.</p>
-        <p>
-          A cerimónia terá lugar pelas 17h30, seguida de cocktail, jantar e
-          muita festa!
-        </p>
-        <br />
-        <p>
-          Existem lugares de estacionamento na rua do casamento e nas
-          proximidades (ver no mapa)
-        </p>
-        <p>Para quem mora perto, recomendamos um clássico Uber/Bolt.</p>
+        <div className="mini-body">
+          <p className="assistant-font-bold">
+            Esperamos pela vossa chegada pelas 17 horas.
+          </p>
+          <p className="assistant-font">
+            A cerimónia terá lugar pelas 17h30, seguida de cocktail, jantar e
+            muita festa!
+          </p>
+          <br />
+          <p className="assistant-font">
+            Existem lugares de estacionamento na rua do casamento e nas
+            proximidades (ver no mapa)
+          </p>
+          <p className="assistant-font">
+            Para quem mora perto, recomendamos um clássico Uber/Bolt.
+          </p>
 
-        <div>
-          <Map></Map>
+          <div
+            style={{ width: "100%", paddingTop: "50px", paddingBottom: "50px" }}
+          >
+            <Map></Map>
+          </div>
         </div>
 
-        <div>
-          <h2>LISTA DE PRESENTES</h2>
-          <img src={small_flower} alt="" />
+        <div className="mini-body">
+          <div className="mini-header arsen-font">
+            <p>LISTA DE PRESENTES</p>
+            <img src={small_flower} alt="" />
+          </div>
+          <p className="assistant-font">
+            Mantendo a tradição, reunimos uma lista de sugestões de presentes,
+            especialmente centrada na nossa viagem de Lua de Mel ao Japão. Podem
+            consultar aqui a lista de presentes e contribuir para o que mais
+            gostarem:
+          </p>
+
+          <button
+            className="btn-hitchd vogue-font"
+            onClick={() =>
+              openExternalSite("http://www.hitchd.com/catarinalexandre2024")
+            }
+          >
+            Catarina & Alexandre
+          </button>
         </div>
-        <p>
-          Mantendo a tradição, reunimos uma lista de sugestões de presentes,
-          especialmente centrada na nossa viagem de Lua de Mel ao Japão. Podem
-          consultar aqui a lista de presentes e contribuir para o que mais
-          gostarem: XXX
-        </p>
 
         <div className="final-rsvp">
-          <h3>CONTAMOS CONVOSCO?</h3>
+          <h3 className="vogue-font">CONTAMOS CONVOSCO?</h3>
           <button className="btn-presence" onClick={() => setOpen(true)}>
             Confirmar presença
           </button>
         </div>
 
-        <div className="contacts">
+        <hr
+          style={{
+            width: "5%",
+          }}
+        />
+
+        <div className="contacts assistant-font">
           <p>Catarina: 919 669 972</p>
           <p>Alexandre: 919 550 091</p>
           <br />

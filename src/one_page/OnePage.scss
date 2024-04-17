@@ -32,80 +32,62 @@ body {
   transition: background-color 0.3s;
   margin-top: 30px;
   max-width: 250px;
-  font-family: "Vogue", sans-serif;
   font-size: 25px;
+  text-wrap: nowrap;
 
   &:hover {
     background-color: #a2a98f;
   }
 }
-/*
+
+.btn-hitchd {
+  background-color: #d0b4899c;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  max-width: 250px;
+  font-size: 14px !important;
+  text-wrap: nowrap;
+
+  &:hover {
+    background-color: blanchedalmond;
+  }
+}
+
+// HEADER
 .header {
   display: flex;
+  position: relative;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   font-family: "Vogue", sans-serif;
-
-  img {
-    height: 600px;
-  }
+  height: 100vh;
+  width: 100%;
 
   .header-texts {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    .title {
-      font-family: "Arsen", sans-serif;
-      font-weight: lighter;
-      font-size: 50px;
-    }
-
-    .welcoming {
-      font-family: Vogue;
-      font-weight: 200;
-      font-size: 28px;
-      line-height: 33px;
-    }
-
-    .date {
-      padding-top: 25px;
-      font-size: 25px;
-      .day {
-        font-weight: bold;
-      }
-    }
-  }
-}*/
-
-.header {
-  display: flex;
-  position: relative; // Needed for absolute positioning of the image
-  justify-content: center; // This centers the text block horizontally
-  align-items: center; // Aligns items vertically
-  font-family: "Vogue", sans-serif;
-  height: 100vh; // Optional: Adjust based on your design
-  width: 100%; // Ensures the header spans the full width
-
-  .header-texts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 1; // Ensures text is above the image if overlapping occurs
+    z-index: 1;
   }
 
   img {
     position: absolute;
-    right: 0; // Positions the image at the right edge of the container
+    right: 200px;
     height: 600px;
-    width: auto; // Adjust width automatically based on height
+    width: auto;
   }
 }
 
 .title,
 .welcoming,
 .date {
-  text-align: center; // Ensures text is centered within their blocks
+  text-align: center;
 }
 
 .title {
@@ -129,8 +111,12 @@ body {
   }
 }
 
+// CONTENT
 .content {
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
   margin: 100px auto;
   padding: 40px;
   background-color: white;
@@ -139,13 +125,28 @@ body {
   text-align: center;
   margin-top: 0;
 
+  p {
+    margin: 0;
+  }
+
+  .mini-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .mini-body {
+    width: 70%;
+  }
+
   .mosaic {
     width: 100%;
-  }
-  h1,
-  p {
-    margin-top: 0;
-    color: #000000;
   }
 
   .map-container {
@@ -154,4 +155,24 @@ body {
       border-radius: 10px;
     }
   }
+}
+
+.final-rsvp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .btn-presence {
+    margin-top: 0;
+  }
+}
+
+.contacts {
+  padding-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-bottom: 100px;
 }
