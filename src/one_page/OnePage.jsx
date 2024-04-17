@@ -121,10 +121,18 @@ export default function OnePage() {
         />
 
         <div className="contacts assistant-font">
-          <p>Catarina: 919 669 972</p>
-          <p>Alexandre: 919 550 091</p>
+          <p>
+            Catarina: <a href="tel:+351919669972">919 669 972</a>
+          </p>
+          <p>
+            Alexandre: <a href="tel:+351919550091">919 550 091</a>
+          </p>
           <br />
-          <p>casamento.ca24@gmail.com</p>
+          <p>
+            <a href="mailto:casamento.ca24@gmail.com">
+              casamento.ca24@gmail.com
+            </a>
+          </p>
         </div>
       </div>
 
