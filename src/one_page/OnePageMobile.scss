@@ -1,4 +1,14 @@
-@media (max-width: 600px) {
+@media (min-width: 1201px) and (max-width: 1465px) {
+  .header {
+    flex-direction: column-reverse !important;
+    img {
+      position: initial;
+      height: 300px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
   .btn-presence {
     font-size: 16px !important;
   }
