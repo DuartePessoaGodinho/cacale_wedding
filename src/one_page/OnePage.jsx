@@ -4,7 +4,7 @@ import "./Fonts.scss";
 import big_flower from "../assets/one_page/flor_grande.png";
 import small_flower from "../assets/one_page/flor_piqui.png";
 
-import ph_tortas from "../assets/one_page/ph_tortas.png";
+import ph_tortas from "../assets/one_page/ph_tortas_2.png";
 import Map from "../Components/Map";
 import { Drawer } from "antd";
 import { useState } from "react";
