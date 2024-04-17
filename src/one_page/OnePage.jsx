@@ -62,7 +62,7 @@ export default function OnePage() {
           }}
         >
           <p>SOBRE O DIA</p>
-          <img src={small_flower} alt="" />
+          <img src={small_flower} alt="" style={{ paddingRight: "10px" }} />
         </div>
 
         <div className="mini-body">
