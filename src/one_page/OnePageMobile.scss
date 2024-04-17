@@ -1,4 +1,32 @@
 @media (max-width: 600px) {
+  .header {
+    margin-top: -50px;
+    flex-direction: column-reverse;
+
+    img {
+      position: initial;
+      height: 250px;
+    }
+
+    .header-texts {
+      margin-top: -20px;
+      .title {
+        font-size: 40px;
+      }
+      .welcoming {
+        font-size: 20px;
+      }
+      .date {
+        .day {
+          font-weight: 700;
+          font-size: 24px !important;
+        }
+        .hour {
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
   .content {
     padding: 0;
     width: 90%;
