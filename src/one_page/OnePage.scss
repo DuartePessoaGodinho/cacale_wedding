@@ -32,8 +32,11 @@ body {
   transition: background-color 0.3s;
   margin-top: 30px;
   max-width: 250px;
-  font-size: 18px;
+  font-size: 16px;
   text-wrap: nowrap;
+  font-family: "Arsen";
+  font-weight: 600;
+  height: 45px;
 
   &:hover {
     background-color: #a2a98f;
@@ -42,7 +45,7 @@ body {
 
 .btn-hitchd {
   background-color: #d0b4899c;
-  color: black;
+  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 15px;
