@@ -149,6 +149,11 @@ body {
     width: 100%;
   }
 
+  .map-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .map-container {
     .maps-embeded {
       height: 50vh;
@@ -168,6 +173,7 @@ body {
 
 .contacts {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer {

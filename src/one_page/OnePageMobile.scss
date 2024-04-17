@@ -1,6 +1,49 @@
 @media (max-width: 600px) {
+  .content {
+    padding: 0;
+    width: 90%;
+  }
   .mini-header p {
     text-wrap: nowrap;
     font-size: 25px;
+  }
+
+  .mini-body {
+    .btn-hitchd {
+      font-size: 15px !important;
+    }
+  }
+
+  .map-content {
+    width: 85vw;
+    position: relative;
+    left: calc(-11vw);
+  }
+
+  /* FONTS AND SHIT */
+  .arsen-font {
+    font-family: "Arsen";
+    font-size: 25px !important;
+  }
+  .assistant-font {
+    font-family: "Assistant";
+    font-weight: 300;
+    font-size: 17px !important;
+  }
+  .assistant-font-bold {
+    font-family: "Assistant";
+    font-weight: normal;
+    font-size: 19px !important;
+  }
+
+  // VOGUE
+  .vogue-font {
+    font-family: "Vogue";
+    font-size: 25px !important;
+  }
+
+  .date .day {
+    font-weight: 700;
+    font-size: 29px !important;
   }
 }

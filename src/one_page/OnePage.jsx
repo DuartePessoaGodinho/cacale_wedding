@@ -80,9 +80,7 @@ export default function OnePage() {
             Para quem mora perto, recomendamos um clássico Uber/Bolt.
           </p>
 
-          <div
-            style={{ width: "100%", paddingTop: "50px", paddingBottom: "50px" }}
-          >
+          <div className="map-content">
             <Map></Map>
           </div>
         </div>
