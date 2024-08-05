@@ -86,7 +86,8 @@ export default function Map() {
               >
                 <div>
                   <p className="marker-title">Catarina & Alexandre</p>
-                  <p>R. Alto da Maceira, nº 81</p>
+                  <br />
+                  <p>R. Alto da Maceira 812750-642 Cascais</p>
                 </div>
               </InfoWindow>
             )}
