@@ -6,11 +6,27 @@
     height: 90vh;
     align-items: center;
     justify-content: center;
+    font-family: "Arsen";
+    flex-direction: column;
 
     font-family: "Arsen";
 
+    h2, h3 { 
+        text-align: center;
+    }
+
     img {
         width: auto;
-        height: 80vh;
+        height: 50vh;
     }
+}
+
+@media (min-width: 1201px) and (max-width: 1465px) {
+  .header {
+    flex-direction: column-reverse !important;
+    img {
+      position: initial;
+      height: 300px;
+    }
+  }
 }

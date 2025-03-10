@@ -12,8 +12,10 @@ export default function OnePage() {
 
   return (
     <div className="container">
-        <img src={big_flower} alt="" />
-        <h2>Obrigado a todos pela presença. Foi um prazer.</h2>
+      <img src={big_flower} alt="" />
+      <h2>Obrigado a todos pela presença.</h2>
+      <br />
+      <h3>Foi um prazer.</h3>
     </div>
-  )
+  );
 }
